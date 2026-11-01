@@ -1,0 +1,32 @@
+.footer {
+  background-color: var(--color-primary-blue);
+  color: var(--color-white);
+  padding: var(--space-12) var(--space-6);
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-weight: 700;
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--space-2);
+}
+
+.footer-tagline {
+  color: var(--color-gray-300);
+  margin-bottom: var(--space-6);
+}
+
+.footer-copyright {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-500);
+}
